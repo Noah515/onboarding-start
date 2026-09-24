@@ -1,9 +1,10 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "ASIC Onboarding Project - Noah Kim"      # Project title
+  author:       "Noah Kim"      # Your name
+  discord:      "Molay25"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "SPI-controlled PWM peripheral for Tiny Tapeout."      # One line description of what your project does
+  top_module: "tt_um_uwasic_onboarding_noah_kim"
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -17,7 +18,9 @@ project:
   # Source files must be in ./src and you must list each source file separately, one per line.
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
-    - "project.v"
+    - "spi perpherial"
+    - pwm_peripheral.v
+    - project.v
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
