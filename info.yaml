@@ -13,7 +13,6 @@ project:
 
   # List your project's source files here.
   source_files:
-    - "spi_peripheral.v"
     - "pwm_peripheral.v"
     - "project.v"
 
